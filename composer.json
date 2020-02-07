@@ -1,0 +1,37 @@
+{
+    "name": "neosflow/boilerplate",
+    "description": "Boilerplate for Neos Flow",
+    "config": {
+        "vendor-dir": "Packages/Libraries",
+        "bin-dir": "bin"
+    },
+    "require": {
+        "neos/flow": "~6.1.0",
+        "neos/welcome": "~6.1.0",
+        "neos/imagine": "^3.1.2",
+        "neos/swiftmailer": "*",
+        "neos/media": "5.1.4"
+    },
+    "require-dev": {
+        "neos/kickstarter": "~6.1.0",
+        "neos/buildessentials": "~6.1.0",
+        "neos/behat": "dev-master",
+        "phpunit/phpunit": "~8.1",
+        "mikey179/vfsstream": "~1.6"
+    },
+    "repositories": {
+        "distributionPackages": {
+            "type": "path",
+            "url": "./DistributionPackages/*"
+        }
+    },
+    "suggest": {
+        "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
+    },
+    "scripts": {
+        "post-update-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+        "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
+    }
+}
