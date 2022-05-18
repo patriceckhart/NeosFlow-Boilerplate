@@ -6,17 +6,17 @@
         "bin-dir": "bin"
     },
     "require": {
-        "neos/flow": "~7.2.0",
-        "neos/welcome": "~7.2.0",
-        "neos/imagine": "^3.2",
-        "neos/swiftmailer": "^7.2",
-        "neos/media": "^7.2"
+        "neos/flow": "~8.0.0",
+        "neos/welcome": "~8.0.0",
+        "neos/behat": "~8.0.0",
+        "neos/imagine": "^3.3",
+        "neos/swiftmailer": "^7.3",
+        "neos/media": "^8.0"
     },
     "require-dev": {
-        "neos/kickstarter": "~7.2.0",
-        "neos/buildessentials": "~7.2.0",
-        "neos/behat": "dev-master",
-        "phpunit/phpunit": "~9.1",
+        "neos/kickstarter": "~8.0.0",
+        "neos/buildessentials": "~8.0.0",
+        "phpunit/phpunit": "~9.0",
         "mikey179/vfsstream": "~1.6"
     },
     "repositories": {
