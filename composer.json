@@ -3,19 +3,22 @@
     "description": "Boilerplate for Neos Flow",
     "config": {
         "vendor-dir": "Packages/Libraries",
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "allow-plugins": {
+            "neos/composer-plugin": true
+        }
     },
     "require": {
-        "neos/flow": "~8.0.0",
-        "neos/welcome": "~8.0.0",
-        "neos/behat": "~8.0.0",
+        "neos/flow": "~8.2.0",
+        "neos/welcome": "~8.2.0",
         "neos/imagine": "^3.3",
         "neos/swiftmailer": "^7.3",
-        "neos/media": "^8.0"
+        "neos/media": "^8.2"
     },
     "require-dev": {
-        "neos/kickstarter": "~8.0.0",
-        "neos/buildessentials": "~8.0.0",
+        "neos/kickstarter": "~8.2.0",
+        "neos/buildessentials": "~8.2.0",
+        "neos/behat": "~8.2.0",
         "phpunit/phpunit": "~9.0",
         "mikey179/vfsstream": "~1.6"
     },
