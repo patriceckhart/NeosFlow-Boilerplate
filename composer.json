@@ -3,7 +3,10 @@
     "description": "Boilerplate for Neos Flow",
     "config": {
         "vendor-dir": "Packages/Libraries",
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "allow-plugins": {
+            "neos/composer-plugin": true
+        }
     },
     "require": {
         "neos/flow": "~8.2.0",
