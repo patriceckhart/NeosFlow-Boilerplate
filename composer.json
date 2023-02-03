@@ -15,9 +15,7 @@
         "neos/media": "^8.2",
         "neos/fusion": "^8.2",
         "neos/fusion-afx": "^8.2",
-        "neos/fusion-form": "^2.1",
-        "react/demo": "@dev",
-        "steinbauerit/flow-essentials": "@dev"
+        "neos/fusion-form": "^2.1"
     },
     "require-dev": {
         "neos/kickstarter": "~8.2.0",
