@@ -10,13 +10,14 @@
     },
     "require": {
         "neos/flow": "~8.2.0",
-        "neos/welcome": "~8.2.0",
         "neos/imagine": "^3.3",
         "neos/swiftmailer": "^7.3",
         "neos/media": "^8.2",
         "neos/fusion": "^8.2",
         "neos/fusion-afx": "^8.2",
-        "neos/fusion-form": "^2.1"
+        "neos/fusion-form": "^2.1",
+        "react/demo": "@dev",
+        "steinbauerit/flow-essentials": "@dev"
     },
     "require-dev": {
         "neos/kickstarter": "~8.2.0",
